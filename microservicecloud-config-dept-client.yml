@@ -21,7 +21,6 @@ spring:
       max-total: 5
       max-wait-millis: 200
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atguigu.springcloud.entities
   
 eureka:
@@ -56,7 +55,6 @@ spring:
       max-total: 5
       max-wait-millis: 20
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atguigu.springcloud.entities
 eureka:
   client:
